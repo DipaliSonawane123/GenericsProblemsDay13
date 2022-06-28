@@ -1,5 +1,7 @@
+/*
+Given 3 Strings find the maximum
+ */
 package com.javagenerics;
-
 public class FindMaxString {
     public static String compareTO(String x, String y, String z) {
 
