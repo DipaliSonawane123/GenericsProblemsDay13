@@ -6,7 +6,6 @@ Refactor to create Generic Class to take in 3 variables of Generic Type
 - Define new test case to use the Generic Class
  */
 package com.javagenerics;
-
 public class Refactor2 <T extends Comparable<T>>//generic class
 {
     T x;
