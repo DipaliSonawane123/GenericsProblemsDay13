@@ -21,18 +21,16 @@ public class MaxFind <T extends Comparable<T>> { //sorting using comparable inte
         }
         System.out.println(inputArray[inputArray.length - 1]);
     }
-    public void display(){
-        for(int i=0;i<inputArray.length;i++){
+    public void display() {
+        for (int i = 0; i < inputArray.length; i++) {
             System.out.println(inputArray[i]);
         }
         Arrays.sort(inputArray);
         System.out.println("After sorting");
-        for(int i=0; i<inputArray.length;i++){
+        for (int i = 0; i < inputArray.length; i++) {
             System.out.println(inputArray[i]);
         }
-
     }
-
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         Integer[] i = {56, 30, 70, 123, 43, 56};
@@ -41,8 +39,11 @@ public class MaxFind <T extends Comparable<T>> { //sorting using comparable inte
         new MaxFind(i).maxElement();
         new MaxFind(s).maxElement();
         new MaxFind(f).maxElement();
+        System.out.println("*******integer******");
         new MaxFind(i).display();
+        System.out.println("*******String******");
         new MaxFind(s).display();
+        System.out.println("*******Float******");
         new MaxFind(f).display();
 
     }
